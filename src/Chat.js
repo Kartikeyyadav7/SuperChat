@@ -59,7 +59,7 @@ const ChatRoom = () => {
 	return (
 		<>
 			<div className="navbar">
-				<h2>SuperChat</h2>
+				<h2>Chatterr</h2>
 				<div>
 					{auth.currentUser && (
 						<button onClick={() => auth.signOut()}>Sign Out</button>
