@@ -10,6 +10,8 @@ function SignIn() {
 	};
 	return (
 		<div>
+			<h2>SuperChat</h2>
+			<h3>Let's start chatting with random people and make friends</h3>
 			<button onClick={signInWithGoogle}>Sign in with google</button>
 		</div>
 	);
